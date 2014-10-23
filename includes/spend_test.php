@@ -1,0 +1,1 @@
+<?php//ini_set('display_errors', '1')require_once 'Spend_Categories.php';$spends = new Spend_Categories('Desc');print_r( $spends->getSpends() );?>
