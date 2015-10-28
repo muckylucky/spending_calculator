@@ -16,6 +16,7 @@ $(document).ready(function(){
 	var percent = $('h2.wage-percent');
 	if ( percent ) {
 		var amount = percent.text().slice(0,-1) 
+		console.log(amount);
 		if ( amount > 40 && amount <= 70 ) {
 			percent.addClass('warning').text(amount + '% !');
 		} else if ( amount > 70 ) {
